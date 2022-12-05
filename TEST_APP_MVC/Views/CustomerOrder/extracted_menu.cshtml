@@ -1,0 +1,23 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor HttpContextAccessor
+@model AllMenu
+
+@if (@HttpContextAccessor.HttpContext.Session.GetString("cart") != null)
+
+
+{
+
+    foreach (var menu in Model.MenuList)
+    {
+        @menu.MealName
+        ////@menu.Id,
+        ////@menu.MealPrice,
+        ////@menu.Quantity
+
+    }
+}
+
+
+
+
+

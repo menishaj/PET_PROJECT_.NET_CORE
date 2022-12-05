@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\mjugoo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\mjugoo\\.nuget\\packages"
+    ]
+  }
+}
